@@ -1,0 +1,55 @@
+.overview{
+    padding-bottom: 2em;
+  }
+
+  .card-small {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    background: var(--cardGray);
+    border-radius: 8px;
+    padding: 1.7em;
+  }
+  
+  .card-small p {
+    margin: 0;
+  }
+  
+  .card-small-view {
+    color: var(--cardTitle);
+    font-weight: bold;
+    font-size: .9em;
+  }
+  
+  .card-small-icon {
+    text-align: right;
+  }
+  
+  .card-small-number {
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: .9;
+  }
+  
+  .card-small-percentage {
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: .8em;
+    font-weight: bold;
+  }
+  
+  .card-small-percentage.is-danger span {
+    color: var(--Bright-red);
+  }
+  
+  .card-small-percentage span {
+    display: flex;
+    align-items: center;
+    color: var(--lime-green);
+  }
+  
+  .card-small-percentage img {
+    margin-right: 5px;
+  }
